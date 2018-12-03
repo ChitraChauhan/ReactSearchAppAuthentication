@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #8dc26f !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
+}
+
+.collapse:not(.show) {
+  display: flex;
+}
+
+td {
+  color: #800080;
+  font-weight: 900;
+  /* max-width:100px;
+  max-height:100px; */
+  /* width:700px; */
+  /* height:70px;  */
+  /* overflow:hidden;
+  word-wrap:break-word;   */
+}
+
+th {
+  color: #f1f1f1;
+  font-weight: 900;
+}
+
+.link {
+  font-size: 0.9em;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.link:hover {
+  color: #800080;
+}
+
+.button {
+  font-size: 0.9em;
+  color: #800080;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 1em 0;
+}
+
+form {
+  margin: 25px;
+}
+
+.container {
+  background-color: white;
+  border: 10px solid #f1f1f1;
+  margin: "auto ";
+}
+
+.register-profile {
+  background-color: white;
+  border: 5px solid #f1f1f1;
+  width: 1000px;
+  margin: auto;
+}
+
+.error {
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  text-indent: 30px;
+}
+
+.search .fa-search {
+  position: relative;
+  top: 0px;
+  left: 20px;
+  font-size: 15px;
+}
+
+.fa.fa-bars {
+  font-size: 25px !important;
+  position: absolute;
+  text-rendering: auto;
+  padding-left: 10px;
+  transform: scale(1.5, 1.5);
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+link,
+link:hover,
+link:focus {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.sidebar {
+  transition: all 0.3s;
+  min-height: 100vh;
+}
+
+.slide-pane__header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 0 0 64px;
+  flex: 0 0 64px;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.18);
+  height: 64px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+li {
+  font-weight: 500;
+  color: #800080;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 400px;
+  }
+}
